@@ -11,7 +11,7 @@ touch_pin = board.A0
 touch = touchio.TouchIn(touch_pin)
 
 # Initialize NeoPixel
-pixel_pin = board.A10
+pixel_pin = board.MOSI
 num_pixels = 3
 pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=1.0, auto_write=False)
 
